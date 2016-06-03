@@ -1,0 +1,32 @@
+/*Title*/
+h1 {
+	text-align: center;
+	font-size: 2em;
+}
+
+/*Background picture*/
+body {
+	background-image: url(https://images.unsplash.com/photo-1451988336904-b1a6e8846746?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fd891625795592b195cd39f3d031418a);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Dropdown*/
+.dropdown {
+	position: relative;
+	display: inline-block;
+	padding-left: 3.15em;
+	padding-top: 11em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+}
+
+.dropdown-content {
+	/*display: none;*/
+	position: absolute;
+	list-style: none;
+	margin-top: -.015em;
+	width: 25em;
+	margin-left: -2.5em;
+}

@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Census API Project</title>
+	<link rel='stylesheet' href='css/style.css'>
 </head>
 <body>
-	<header>How many people are insured in your area?</header>
+	<h1>How many people are insured in your area?</h1>
 	<input name='location' required placeholder='Enter State name or County name'>
-	<div class='demographic-dropdown'>
+	<div class='dropdown'>
 	<button id='demographic-button'>Demographic</button>
-		<ul class='demographic'>
+		<ul class='dropdown-content demographic'>
 			<li class='Asian'>Asian</li>
 			<li class='Black'>Black</li>
 			<li class='Hispanic'>Hispanic</li>
@@ -17,16 +18,16 @@
 			<li class='White'>White</li>
 		</ul>
 	</div>
-	<div class='gender-dropdown'>
+	<div class='dropdown'>
 	<button id='gender-button'>Gender</button>
-		<ul class='gender'>
+		<ul class='dropdown-content gender'>
 			<li class='female'>Female</li>
 			<li class='male'>Male</li>
 		</ul>
 	</div>
-	<div class='age-dropdown'>
+	<div class='dropdown'>
 	<button id='age-button'>Age</button>
-		<ul class='age'>
+		<ul class='dropdown-content age'>
 			<li class='18orUnder'>18 years old or under</li>
 			<li class='18-25yo'>18 - 25 years old</li>
 			<li class='25-35yo'>25 - 35 years old</li>
