@@ -2,6 +2,8 @@
 h1 {
 	text-align: center;
 	font-size: 2em;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 700;
 }
 
 /*Background picture*/
@@ -11,22 +13,76 @@ body {
 	background-repeat: no-repeat;
 }
 
-/*Dropdown*/
-.dropdown {
-	position: relative;
-	display: inline-block;
-	padding-left: 3.15em;
-	padding-top: 11em;
-	margin-left: auto;
-	margin-right: auto;
-	width: 45%;
+/*Input*/
+input {
+	padding: 1em;
+	margin-left: 32em;
+	margin-right: 32em;
+	width: 252px;
+	font-size: 1em;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 400;
 }
 
-.dropdown-content {
-	/*display: none;*/
-	position: absolute;
-	list-style: none;
-	margin-top: -.015em;
-	width: 25em;
-	margin-left: -2.5em;
+/*Dropdown*/
+.info {
+	padding-top: 3em;
+	padding-bottom: 30em;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, .5);
+	width: 75%;
 }
+
+.dropdown {
+	float: left;
+	padding-left: 11em;
+	padding-top: 3em;
+}
+
+/*Dropdown List*/
+.dropdown-content {
+	display: none;
+	list-style: none;
+	font-size: 1em;
+	padding-left: 0em;
+	text-align: center;
+	background-color: #EEEEEE;
+	margin-top: 0em;
+	line-height: 3em;
+	font-family: 'Roboto', helvetica;
+	font-weight: 300;
+}
+
+.dropdown-content li {
+	border: 1px solid black;
+	border-width: thin;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content li:hover {
+	background-color: #E0E0E0;
+}
+
+/*Dropdown Button*/
+button {
+	padding: 16px;
+	text-align: center;
+	border: none;
+	font-size: 1em;
+	width: 200px;
+	background-color: #FF5722;
+	color: white;
+	font-family: 'Roboto', helvetica;
+	font-weight: 400;
+}
+
+button:hover {
+	background-color: #FF7043;
+}
+
+/*Search Button*/
+
